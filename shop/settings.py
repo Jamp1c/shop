@@ -31,7 +31,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'shop-bot-knf9.onrender.com',]
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -41,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'product',
+    'shipment',
     'django_cleanup',
     'widget_tweaks',
     'crispy_forms',
@@ -62,7 +61,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',    
 ]
 
-ROOT_URLCONF = 'shop.urls'
+ROOT_URLCONF = 'delivery.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -84,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'shop.wsgi.application'
+WSGI_APPLICATION = 'delivery.wsgi.application'
 
 
 # Database
@@ -113,6 +112,7 @@ DATABASES = {
 	    'HOST' : 'dpg-cs56ngg8fa8c73agtm00-a.frankfurt-postgres.render.com',
 	    'PORT' : '5432',
     }
+
 }
 
 
@@ -137,7 +137,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
-
 LANGUAGE_CODE = 'ru-Ru'
 TIME_ZONE = 'UTC'
 USE_I18N = True
@@ -179,14 +178,7 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 LOGOUT_URL = '/'
 
-##Сохранения изображения
-#CLOUDINARY_STORAGE = {
-#    'CLOUD_NAME': 'dglxmpdwu',
-#    'KEY_NAME': 'qwwqeeqwe',
-#    'API_KEY': '861654479477242',
-#    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
-#}
-#DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+#Сохранения изображения
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': 'dtedz2qtu',
     'API_KEY': '499329241933151',
