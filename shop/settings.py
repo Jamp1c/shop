@@ -31,6 +31,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'shop-bot-knf9.onrender.com',]
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -61,7 +62,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',    
 ]
 
-ROOT_URLCONF = 'delivery.urls'
+ROOT_URLCONF = 'shop.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -83,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'delivery.wsgi.application'
+WSGI_APPLICATION = 'shop.wsgi.application'
 
 
 # Database
