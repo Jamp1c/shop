@@ -180,11 +180,17 @@ LOGOUT_REDIRECT_URL = '/'
 LOGOUT_URL = '/'
 
 ##Сохранения изображения
+#CLOUDINARY_STORAGE = {
+#    'CLOUD_NAME': 'dglxmpdwu',
+#    'KEY_NAME': 'qwwqeeqwe',
+#    'API_KEY': '861654479477242',
+#    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
+#}
+#DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dglxmpdwu',
-    'KEY_NAME': 'qwwqeeqwe',
-    'API_KEY': '861654479477242',
-    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
+    'CLOUD_NAME': 'dwgreiscb',
+    'API_KEY': '829283231332991',
+    'API_SECRET': 'TfXGT9PwObkRnVSwwHjZ_HWONGg',
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
