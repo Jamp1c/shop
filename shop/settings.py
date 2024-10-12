@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-(u=!e=q-)j4@8+0-*b+z!&ja(1*=l=srknqmq9nk2%@(yo)pv6
 DEBUG = False
 #DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'shop-bot-29vw.onrender.com',]
+ALLOWED_HOSTS = ['127.0.0.1', 'shop-bot-knf9.onrender.com',]
 
 
 # Application definition
@@ -96,23 +96,23 @@ DATABASES = {
     #    'NAME': BASE_DIR / 'db.sqlite3',
     #}
 
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'shop',
-        'USER' : 'customer',
-        'PASSWORD' : 'customer',
-        'HOST' : '127.0.0.1',
-        'PORT' : '5432',
-    }
-    
     #'default': {
-	   # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-	   # 'NAME': 'shop_bot_pez3',
-	   # 'USER' : 'shop_admin',
-	   # 'PASSWORD' : 'in6E36jBWmzdsLPgCzNFjjaXDJmWCCtd',
-	   # 'HOST' : 'dpg-cogjk3sf7o1s7380l2j0-a.frankfurt-postgres.render.com',
-	   # 'PORT' : '5432',
+    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #    'NAME': 'shop',
+    #    'USER' : 'customer',
+    #    'PASSWORD' : 'customer',
+    #    'HOST' : '127.0.0.1',
+    #    'PORT' : '5432',
     #}
+    
+    'default': {
+	    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+	    'NAME': 'shop_bot_mbqc',
+	    'USER' : 'shop_bot_mbqc_user',
+	    'PASSWORD' : 'fCBGJWJ723hZfEg8IWPcFWfTRcrRljrr',
+	    'HOST' : 'dpg-cs56ngg8fa8c73agtm00-a.frankfurt-postgres.render.com',
+	    'PORT' : '5432',
+    }
 }
 
 
@@ -179,13 +179,13 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 LOGOUT_URL = '/'
 
-#Сохранения изображения
-#CLOUDINARY_STORAGE = {
-#    'CLOUD_NAME': 'dwgreiscb',
-#    'API_KEY': '829283231332991',
-#    'API_SECRET': 'TfXGT9PwObkRnVSwwHjZ_HWONGg',
-#}
-#DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+##Сохранения изображения
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dwgreiscb',
+    'API_KEY': '829283231332991',
+    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
+}
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Сброс пароля по E-Mail
 EMAIL_TIMEOUT = 300
