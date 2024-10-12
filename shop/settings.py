@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-(u=!e=q-)j4@8+0-*b+z!&ja(1*=l=srknqmq9nk2%@(yo)pv6
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-#DEBUG = True
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'shop-bot-knf9.onrender.com',]
 
@@ -181,10 +181,9 @@ LOGOUT_URL = '/'
 
 ##Сохранения изображения
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dglxmpdwu',
-    'KEY_NAME': 'qwwqeeqwe',
-    'API_KEY': '861654479477242',
-    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
+    'CLOUD_NAME': 'dtedz2qtu',
+    'API_KEY': '499329241933151',
+    'API_SECRET': 'MyBtEu9Vv4pv_dhZ-MaeE9l0pzE',
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
