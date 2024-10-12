@@ -181,7 +181,7 @@ LOGOUT_URL = '/'
 
 ##Сохранения изображения
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'qwwqeeqwe',
+    'CLOUD_NAME': 'dglxmpdwu',
     'API_KEY': '861654479477242',
     'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
 }
