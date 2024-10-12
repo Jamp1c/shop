@@ -113,7 +113,6 @@ DATABASES = {
 	    'HOST' : 'dpg-cs56ngg8fa8c73agtm00-a.frankfurt-postgres.render.com',
 	    'PORT' : '5432',
     }
-
 }
 
 
@@ -138,6 +137,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
+
 LANGUAGE_CODE = 'ru-Ru'
 TIME_ZONE = 'UTC'
 USE_I18N = True
@@ -179,11 +179,12 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 LOGOUT_URL = '/'
 
-#Сохранения изображения
+##Сохранения изображения
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dtedz2qtu',
-    'API_KEY': '499329241933151',
-    'API_SECRET': 'MyBtEu9Vv4pv_dhZ-MaeE9l0pzE',
+    'CLOUD_NAME': 'dglxmpdwu',
+    'KEY_NAME': 'qwwqeeqwe',
+    'API_KEY': '861654479477242',
+    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
