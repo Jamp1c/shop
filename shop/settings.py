@@ -188,9 +188,9 @@ LOGOUT_URL = '/'
 #}
 #DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dwgreiscb',
-    'API_KEY': '829283231332991',
-    'API_SECRET': 'TfXGT9PwObkRnVSwwHjZ_HWONGg',
+    'CLOUD_NAME': 'dtedz2qtu',
+    'API_KEY': '499329241933151',
+    'API_SECRET': 'MyBtEu9Vv4pv_dhZ-MaeE9l0pzE',
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
