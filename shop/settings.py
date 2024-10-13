@@ -33,7 +33,6 @@ ALLOWED_HOSTS = ['127.0.0.1', 'shop-bot-knf9.onrender.com',]
 
 
 # Application definition
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -114,8 +113,6 @@ DATABASES = {
 	    'HOST' : 'dpg-cs56ngg8fa8c73agtm00-a.frankfurt-postgres.render.com',
 	    'PORT' : '5432',
     }
-
-
 }
 
 
@@ -182,11 +179,11 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 LOGOUT_URL = '/'
 
-#Сохранения изображения
+##Сохранения изображения
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dwgreiscb',
-    'API_KEY': '829283231332991',
-    'API_SECRET': 'TfXGT9PwObkRnVSwwHjZ_HWONGg',
+    'CLOUD_NAME': 'dglxmpdwu',
+    'API_KEY': '861654479477242',
+    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
