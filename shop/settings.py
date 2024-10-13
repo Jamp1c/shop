@@ -181,10 +181,15 @@ LOGOUT_URL = '/'
 
 ##Сохранения изображения
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dglxmpdwu',
-    'API_KEY': '861654479477242',
-    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
+    'CLOUD_NAME': 'dtedz2qtu',
+    'API_KEY': '499329241933151',
+    'API_SECRET': 'MyBtEu9Vv4pv_dhZ-MaeE9l0pzE',
 }
+#CLOUDINARY_STORAGE = {
+#    'CLOUD_NAME': 'dglxmpdwu',
+#    'API_KEY': '861654479477242',
+#    'API_SECRET': 'XoZd0JrwTGFvxfR8PHclxRpKvp8',
+#}
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Сброс пароля по E-Mail
